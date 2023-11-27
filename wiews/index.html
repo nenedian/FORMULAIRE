@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+        <h1>DEVOIR NODE.JS</h1>
+        <section>
+                <div class="div">
+                    <form class="form" action="/submit" method="post">
+                            
+                        <input type="text" name="nom" placeholder="Nom">
+                                 
+                        <input type="text" name="prenom" placeholder="Prénom">
+             
+                        <div class="test"><label>GENRE</label></div>
+                        <div class="genre">
+                            <div class="pos">
+                                <input type="checkbox" id="homme" name="homme" value="checked">
+                                <label for="homme">Homme</label>
+                            </div>
+                            <div class="pos">
+                                <input type="checkbox" id="femme" name="femme" value="checked">
+                                <label for="femme">Femme</label>  
+                            </div>
+                        </div> <br>
+                        
+                        <div class="test"><label for="pays">PAYS</label></div>
+                        <select id="country" name="country" required>
+                             <option value="GUINEE">GUINEE</option>
+                             <option value="MALI">MALI</option>
+                        </select><br>
+  
+                        <div class="test"><label  for="cv">CV (PDF)</label></div>
+                        <input type="file" id="cv" name="cv" accept=".pdf" required><br>
+
+                        <div class="test"><label for="images">IMAGE</label></div>
+                        <input type="file" id="images" name="images" accept=".jpg, .png, .jpeg" multiple required><br><br>
+
+                        <div class="test"><button type="submit">Envoyer</button></div>
+                   </form>
+                </div>
+        </section>
+ 
+
+
+</body>
+</html>

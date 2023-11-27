@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('../images/IA.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.div{
+    width: 30%;
+    height: 80vh;
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    box-shadow: -5px 5px 20px rgb(224, 14, 161);
+    border: solid 2px rgb(224, 14, 161);
+    box-sizing: border-box;
+    padding: 15px;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(224, 14, 161);
+    margin-top:5px;
+}  
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+label{
+  padding-right: 260px ;
+  color: rgb(224, 14, 161);
+  font-size: px;
+  font-family: 'roboto', Arial, sans-serif;
+  font-weight: bold; 
+}
+input[type="text"]{
+   width: 90%;
+   height: 35px;
+  font-size: 20px;
+  margin:15px;
+  border-radius: 5px;
+  border: none;
+}
+.genre{
+    background-color: rgb(127, 180, 180);
+    width: 85%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    padding: 10px;
+}
+.pos{
+  padding: 10px;
+  width: 90%;
+}
+.test{
+    width: 90%;
+}
+select{
+    width: 85%;
+    height: 30px;
+    border: none;
+}
+#cv, #images{
+    width: 70%;
+}
+button{
+    width: 90%;
+    height: 45px;
+    background-color: rgb(4, 215, 120);
+    border: none;
+    color: rgb(224, 14, 161);
+    font-size: 20px;
+   font-family:'roboto', Arial, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(224, 14, 161);
+    color: white;
+}
+
+.reponse{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'roboto', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(224, 14, 161);
+    margin-top:5px;
+}
+
+.donne{
+    width: 30%;
+    height: 27vh;
+    background-color: aqua;
+    margin: auto;
+    margin-top:90px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
